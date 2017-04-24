@@ -25,6 +25,8 @@
  */
 - (void)demo {
     
+    NSLog(@"创建分支");
+    
     //第二步  appID:应用在Store里面的ID (应用的AppStore地址里面可获取)
     [NewEditionTestManager checkNewEditionWithAppID:@"1176783253" ctrl:self]; //1种用法，系统Alert
     
